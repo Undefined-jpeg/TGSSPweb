@@ -1,0 +1,271 @@
+.kutu {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    font-size: large;
+    height: 700px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: linear-gradient(to bottom right, rgb(191, 255, 191), rgb(168, 232, 177));
+    border-bottom: 10px;
+
+    
+}
+.kututextbg {
+    color: rgb(24, 60, 37);
+    font-family: pop;
+    padding-left: 75px;
+    padding: 20px;
+    padding-top: 100px ;   
+}
+.kututext {
+    background-color: rgb(215, 244, 229);
+    border-radius: 10px;
+}
+.kutumain {
+    padding-left: 150px;
+    padding-bottom: 150px;
+    padding-top: 100;
+    font-family: popbold;
+    font-size: xx-large;
+}
+.kutumaintext {
+    padding: auto;
+    font-family: popbold;
+}
+.imagefloat {
+    padding-left: 300px;
+    float: left;
+}
+.collabX {
+    float: left;
+    align-items: center;
+    font-family: popbold;
+}
+
+.giris {
+    font-family: pop;
+    color: black;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial;
+    margin: 20px 0; /* Added margin for spacing */
+    border-color: rgb(186, 254, 186);
+    position: relative; /* Allow z-index to work */
+    z-index: 2;
+}
+
+.paragf {
+    color: black;
+    text-align: left;
+    width: 1000px;
+    border-radius: 10px;
+    padding-right: 200px;
+    font-size: large;
+    position: relative; /* Allow z-index to work */
+    z-index: 1;
+}
+
+
+
+.background {
+    background-image: linear-gradient(to bottom right, rgb(40, 191, 47), rgb(87, 170, 222), rgb(63, 132, 216));
+    
+}
+
+.box1 {
+    float: left;
+    padding: 50px;
+    height: 750px;
+    width: 50%;
+    font-family: pop;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.lists {
+    list-style-position: outside;
+    list-style: square;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #203523;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #416d4a;
+}
+.active {
+    background-color: rgb(36, 236, 5);
+  }
+  .active:hover {
+    background-color: rgb(0, 161, 0);
+  }
+@font-face {
+    font-family: 'pop';
+    src: url(Poppins-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 100;
+
+}
+@font-face {
+    font-family: 'popbold';
+    src: url(Poppins-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 100;
+
+}
+@font-face {
+    font-family: 'funnel';
+    src: url(FunnelDisplay-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+.boxkural {
+    background-image: linear-gradient(to top right, rgb(224, 230, 195), rgb(221, 221, 221));
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-family: pop;
+    width: auto;
+
+}
+
+.kutu1 {
+    text-align: left;
+}
+
+.boxkurallar {
+    float: left;
+    padding: 50px;
+    height: auto;
+    width: 50%;
+    font-family: pop;
+    border-radius: 15px;
+    background-color: rgb(219, 234, 248);
+    border-color: black;
+    border-style: groove;
+}
+.site-background {
+    background-color: rgb(148, 211, 139);
+}
+.kurallargiriş {
+    font-family: popbold;
+    padding-top: 100px;
+}
+.kurallar-giriş-bg {
+    background-image: linear-gradient(to left, rgb(140, 243, 214), rgb(95, 197, 227));
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    width: 300px;
+    margin-bottom: 100px;
+    font-size: larger;
+}
+.listkural {
+    background-color: #20352300;
+    float: none;
+}
+.collablogos {
+    float: left ;
+}
+/*------------------İletişim----------------------*/
+
+.iletisim-bg {
+    float: left;
+    margin-left: 140px;
+    margin-top: 100px;
+    padding: 100px;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-image: linear-gradient(to bottom left, rgb(142, 206, 232), rgb(190, 255, 192));
+    width: 350px;
+
+}
+.iletisim-bg2 {
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px;
+    padding: 70px;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-image: linear-gradient(to bottom left, rgb(142, 206, 232), rgb(190, 255, 192));
+    width: 350px;
+}
+.iletisim-bg3 {
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px;
+    padding: 100px;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-image: linear-gradient(to bottom left, rgb(142, 206, 232), rgb(190, 255, 192));
+    width: 350px;
+}
+.iletisim-text {
+    text-align: center;
+    padding-top: 20px;
+    font-family: popbold;
+    font-size: large;
+
+}
+
+.iletisim-hakkinda {
+    text-align: center;
+    padding-top: 50px;
+    font-family: pop;
+    font-size: large;
+    font-family: funnel;
+}
+
+/*----------Ana sayfa---------*/
+
+.Anasayfa {
+    float: left;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+/*-----giriş----*/
+.container1 {
+    padding: 16px;
+    margin-top: 250px;
+    margin-left: 750px;
+    width: 600px;
+    text-align: center;
+    background-color: azure;
+    border-radius: 20px;
+    font-family: popbold;
+
+
+}
+.container2 {
+    padding: 36px;
+}
+
+.login-signup-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)), url('tgssp-giriş-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
